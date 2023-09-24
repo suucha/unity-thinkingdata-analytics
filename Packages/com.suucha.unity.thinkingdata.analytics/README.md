@@ -13,7 +13,7 @@
 ```
 > 数数github上master分支直接是upm包，但是是beta版，不是稳定版本，稳定版本需要在git url的后面加版本标签，比如：https://github.com/ThinkingDataAnalytics/unity-sdk.git#v2.6.0。不过2.6.0到3.X变化有点大，我们这个是以3.0的beta版来开发的。
 ## 开始
-在实现了接口IAfterSuuchaInit的类的Execute方法中，用以下代码初始化ThinkingAnalytics和启用AppsFlyer的事件上报器：
+在实现了接口IAfterSuuchaInit的类的Execute方法中，用以下代码初始化ThinkingAnalytics和启用ThinkingAnalytics的事件上报器：
 ``` csharp
 public class AfterSuuchaInit: IAfterSuuchaInit
 {
