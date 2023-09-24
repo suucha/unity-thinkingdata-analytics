@@ -1,0 +1,21 @@
+{
+  "displayName": "Suucha Thinkingdata Analytics",
+  "category": "Unity",
+  "description": "Suucha Thinkingdata Analytics",
+  "keywords": [
+    "suucha",
+    "logevent",
+    "thinkingdata",
+    "analytics",
+    "unity"
+  ],
+  "dependencies": {
+    "com.suucha.unity.core": "1.0.0",
+    "com.thinkingdata.analytics": "2.6.0"
+  },
+  "author": "suucha",
+  "name": "com.suucha.unity.thinkingdata.analytics",
+  "version": "1.0.0",
+  "type": "library",
+  "unity": "2019.3"
+}
